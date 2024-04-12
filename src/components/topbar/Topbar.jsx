@@ -1,6 +1,6 @@
 import { Language, NotificationsNone, Settings } from '@mui/icons-material'
 import './topbar.css'
-import avatar from '../../assets/avatar.jpg'
+import avatar from '../../../public/assets/avatar.jpg'
 
 const Topbar = () => {
   return (

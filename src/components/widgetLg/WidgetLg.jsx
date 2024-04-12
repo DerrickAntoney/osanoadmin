@@ -1,5 +1,5 @@
 import './widgetLg.css'
-import avatar from '../../assets/avatar.jpg'
+import avatar from '../../../public/assets/avatar.jpg'
 
 const WidgetLg = () => {
 

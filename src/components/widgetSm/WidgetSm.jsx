@@ -1,6 +1,6 @@
 import { Visibility } from '@mui/icons-material'
 import './widgetSm.css'
-import avatar from '../../assets/avatar.jpg'
+import avatar from '../../../public/assets/avatar.jpg'
 
 const WidgetSm = () => {
   return (
