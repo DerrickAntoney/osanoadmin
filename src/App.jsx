@@ -8,6 +8,7 @@ import {
   Routes
 } from "react-router-dom";
 import UserList from './pages/userList/UserList';
+import User from './pages/user/User';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/users" element={<UserList/>}/>
+          <Route path="/user/:id" element={<User/>}/>
         </Routes>
       </div>
     </Router>
