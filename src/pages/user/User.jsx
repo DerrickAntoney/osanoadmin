@@ -67,7 +67,7 @@ const User = () => {
                                 <label>Email</label>
                                 <input 
                                     className='userUpdateInput' 
-                                    type="text"
+                                    type="email"
                                     placeholder='fredbeck99@gmail.com'/>
                             </div>
                             <div className="userUpdateItem">

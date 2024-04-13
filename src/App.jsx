@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import UserList from './pages/userList/UserList';
 import User from './pages/user/User';
+import NewUser from './pages/newUser/NewUser';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path="/" element={<Home/>}/>
           <Route path="/users" element={<UserList/>}/>
           <Route path="/user/:id" element={<User/>}/>
+          <Route path="/newUser" element={<NewUser/>}/>
         </Routes>
       </div>
     </Router>

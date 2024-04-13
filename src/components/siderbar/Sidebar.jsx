@@ -1,5 +1,6 @@
 import { AttachMoney, ChatBubbleOutline, DynamicFeed, Inventory2Outlined, LineStyle, MailOutline, PeopleOutline, Report, SignalCellularAlt, Timeline, TrendingUp, WorkOutline } from '@mui/icons-material'
 import './sidebar.css'
+import { Link } from 'react-router-dom'
 
 const Sidebar = () => {
   return (
@@ -25,14 +26,18 @@ const Sidebar = () => {
             <div className="sidebarMenu">
                 <h3 className="sidebarTitle">Quick Menu</h3>
                 <ul className="sidebarList">
-                    <li className="sidebarListItem">
-                        <PeopleOutline className='sidebarIcon'/>
-                        Users
-                    </li>
-                    <li className="sidebarListItem">
-                        <Inventory2Outlined className='sidebarIcon'/>
-                        Products
-                    </li>
+                    <Link to='./users'>
+                        <li className="sidebarListItem">
+                            <PeopleOutline className='sidebarIcon'/>
+                            Users
+                        </li>
+                    </Link>
+                    <Link to='/products'>
+                        <li className="sidebarListItem">
+                            <Inventory2Outlined className='sidebarIcon'/>
+                            Products
+                        </li>
+                    </Link>
                     <li className="sidebarListItem">
                         <AttachMoney className='sidebarIcon'/>
                         Transactions
